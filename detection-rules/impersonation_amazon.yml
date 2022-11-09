@@ -1,4 +1,4 @@
-name: "Brand impersonation: Amazon"
+name: "Brand impersonation: Amazon.com"
 description: |
   Impersonation of Amazon. These are most commonly fake shipping notifications.
   Amazon is the #2 most-impersonated brand (as of Q2 2020)
@@ -36,6 +36,7 @@ source: |
     'amazon.com.tr',
     'amazonpay.in',
     'amazonpay.com',
+    'amzn.co'
   )
   and sender.email.email not in $recipient_emails
 tags:
