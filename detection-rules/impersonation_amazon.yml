@@ -17,7 +17,7 @@ source: |
   )
   and sender.email.domain.root_domain not in~ (
     'amazon.com',
-    'amazon.co.uk',
+    'amazdon.co.uk',
     'amazon.de',
     'amazon.es',
     'amazon.fr',
