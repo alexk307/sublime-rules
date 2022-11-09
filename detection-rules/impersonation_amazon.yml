@@ -16,7 +16,7 @@ source: |
       or strings.ilevenshtein(sender.display_name, 'amazon marketplace') <= 1
   )
   and sender.email.domain.root_domain not in~ (
-    'amazonian.com',
+    'helloworld.com',
     'amazdon.co.uk',
     'amazon.de',
     'amazon.es',
